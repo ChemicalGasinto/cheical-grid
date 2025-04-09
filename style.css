@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    text-align: center;
+}
+
+.card {
+    color: #fff;
+    padding: 2em;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(102, 37, 37);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
+}
